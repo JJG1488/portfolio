@@ -1,5 +1,5 @@
 
-p, header {
+header, p {
     /* insert font here */
     font-family: 'Nerko One';
 }
@@ -60,4 +60,10 @@ footer {
     margin-bottom: 0px;
     background-color: grey;
 }
+
+/* @media screen and (max-width: 786px) {
+body {
+    background-color: red;
+}
+} */
 
