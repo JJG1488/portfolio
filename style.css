@@ -11,24 +11,17 @@ header .navbar-brand {
 }
 
 .container {
-    /* height: 800px; */
+
     border: tomato solid;
 }
 
-/* .img-thumbnail {
-    max-width: 25%;
-} */
-
 .row {
-    
-    /* max-width: 800px; */
     background-color: ivory;
     border: teal solid;
 }
 
 .col-12 {
-    
-    height: 500px;
+    max-height: 500px;
 }
 
 .col-12 img {
