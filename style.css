@@ -1,54 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 
+
+
 header, p, h1, form{
 
     font-family: 'Nerko One';
-
-}
-
-h1 {
-    text-align: center;
-}
-
-header .navbar-brand {
-
-    background-color: rgb(0, 83, 83);
-
-}
-
-.row {
-
-    background-color: ivory;
- 
-}
-
-.col-xs-12 {
-
-    min-height: 50%;
-
-}
-
-.col img {
-
-    height: 95%;
-
-    width: 90%;
-
-    /* border: yellow solid; */
-
-}
-
-#dev-photo {
-    margin-right: 2%;
-    max-width: 35%;
-    max-height: 35%;
-}
-
-
-header .navbar-nav {
-
-    text-align: right;
 
 }
 
@@ -58,15 +15,69 @@ header {
 
 }
 
-body {
+header .navbar-brand {
 
-/* insert background image here */
+    border: lightslategrey solid;
+
+    background-color: rgb(52, 126, 116);
+
+}
+
+
+
+header .navbar-nav {
+
+    text-align: right;
+
+}
+
+body {
 
     background-image: url(../../../../detroit-skyline.jpg);
 
     background-size: cover;
 
 }
+
+h1 {
+
+    text-align: center;
+}
+
+.row {
+
+    background-color: ivory;
+ 
+}
+
+#dev-photo {
+
+    border: lightslategrey solid;
+    margin-right: 2%;
+    max-width: 35%;
+    max-height: 35%;
+}
+
+.col-xs-12, .col {
+
+    border: lightslategrey solid;
+
+    background-color: rgb(52, 126, 116);
+
+    min-height: 50%;
+
+}
+
+.col img {
+
+    border: lightslategrey;
+
+    height: 95%;
+
+    width: 90%;
+
+}
+
 
 .copyright::before {
 
@@ -77,7 +88,6 @@ body {
 }
 
 footer {
-
     text-align: center;
 
     padding: 3%;
@@ -89,9 +99,5 @@ footer {
 }
 
 
-/* @media screen and (max-width: 786px) {
-body {
-    background-color: red;
-}
-} */
+
 
