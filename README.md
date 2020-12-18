@@ -8,6 +8,15 @@ This webpage displays an example of how a website renders on a variety of screen
 
 ---
 
+## Preview
+
+
+![!alt text](./responsive-layout.png)
+
+[Link to deployed URL] (https://jjg1488.github.io/mobile-responsive-portfolio/)
+
+--
+
 ## Developers
 
 James J. Gault
