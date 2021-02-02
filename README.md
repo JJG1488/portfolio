@@ -1,19 +1,19 @@
-# Mobile-Responsive-Portfolio
+# Portfolio
 
 ---
 
 ## Description
 
-This webpage displays an example of how a website renders on a variety of screen sizes across different devices. This application will have a mobile-first, responsive design.
+This webpage displays a few projects that were developed to display different elements of web development.
 
 ---
 
 ## Preview
 
 
-![!alt text](./responsive-layout.png)
+![Preview](./Assets/Images/preview.png)
 
-[Link to deployed URL] (https://jjg1488.github.io/mobile-responsive-portfolio/)
+[LiveLink] (https://jjg1488.github.io/portfolio/)
 
 --
 
