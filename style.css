@@ -1,103 +1,104 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
-
-
-
-header, p, h1, form{
-
+header, p, h1, form {
     font-family: 'Nerko One';
-
 }
 
 header {
-
+    background-color: rgb(38, 42, 46);
+    padding: 2%;
     margin-bottom: 5%;
-
 }
 
-header .navbar-brand {
-
-    border: lightslategrey solid;
-
-    background-color: rgb(52, 126, 116);
-
+.container {
+    border-radius: 25% 25% 25% 25%;
 }
 
-
+p {
+    color: aliceblue;
+}
 
 header .navbar-nav {
-
     text-align: right;
-
 }
 
 body {
-
-    background-image: url(../../../../detroit-skyline.jpg);
-
-    background-size: cover;
-
+    background-image: url(./Assets/Images/Abstract-Hexagon-Pattern-Artistic-HD-Wallpaper-Background-Image-20-1536x960.jpg);
 }
 
 h1 {
-
     text-align: center;
-}
-
-.row {
-
-    background-color: ivory;
- 
+    color: aliceblue;
 }
 
 #dev-photo {
+    float: left;
+    background-image: url(./Assets/Images/electric-man.PNG);
+    display: inline;
+}
 
+#main-picture {
+    display: inline;
+}
+
+.row {
+    border-radius: 25% 25% 25% 25%;
+}
+
+#dev-photo {
     border: lightslategrey solid;
     margin-right: 2%;
     max-width: 35%;
     max-height: 35%;
 }
 
-.col-xs-12, .col {
+.col-xs-12 {
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    background-color: rgb(38, 42, 46);
+    min-height: 500px;
+    max-width: 500px;
+}
 
-    border: lightslategrey solid;
-
-    background-color: rgb(52, 126, 116);
-
-    min-height: 50%;
-
+.contact-col, #reading-photo {
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    background-color: rgb(38, 42, 46);
 }
 
 .col img {
-
     border: lightslategrey;
-
     height: 95%;
-
     width: 90%;
-
 }
 
+#reading-photo {
+    margin-right: 1%;
+    position: relative;
+    max-height: 800px;
+    max-width: 400px;
+    float: right;
+}
+
+/* #contact-info {
+
+} */
 
 .copyright::before {
-
+    color: white;
     content: "©️";
-
     padding: 2%;
+}
 
+.copyright {
+    color: white;
 }
 
 footer {
+    clear: both;
     text-align: center;
-
-    padding: 3%;
-
+    padding: 1%;
     margin-bottom: 0%;
-
-    background-color: grey;
-
+    background-color: rgb(38, 42, 46);
 }
-
-
-
-
