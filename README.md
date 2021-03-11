@@ -33,19 +33,19 @@ James J. Gault
 
 ## Foresight
 
-This website is based upon having a mobile-first, responsive design. As standards change, this webpage will continue to reflect the proper implementation of mobile-first, responsive design.
+This portfolio was designed to show some of the work and features that I can implement. I will continue to upload projects that display my work.
 
 ---
 
 ## Incentive
 
-Driven by the need to display proper mobile-first, responsive design that will allow any and everyone to navigate this page and any future web pages with content that renders properly across different devices and screen sizes.
+The motivation behind this portfolio is to display work/ features while they are fresh.
 
 ---
 
 ## Challenges
 
-Building a responsive layout using a frameworks' grid system can be challenging. The main challenge can be trying to get the browser to display content exactly where you want it to show. Going through the documentation helps and great deal.
+Building a responsive layout using a frameworks' grid system (Bootstrap in this case) can be challenging. The main challenge can be trying to get the browser to display content exactly where you want it to show. Going through the documentation helps and great deal.
 
 ---
 
